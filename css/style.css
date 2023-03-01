@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: nino-mtavruli-normal;
+    src: url(fonts/bpg_nino_mtavruli_normal.ttf);
+  }
+@font-face {
+    font-family: arial2009;
+    src: url(fonts/bpg_arial_2009.ttf);
+}  
+.box1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0; 
+    border: 2px solid rgb(255, 255, 255);
+   
+    background-color: rgb(214, 216, 216);
+    
+    border-radius: 20px; 
+    box-shadow: 0 19px 38px rgba(131, 60, 60, 0.3), 0 15px 12px rgba(0, 0, 0, .22);
+    font-family: 'Nova Flat', cursive;
+}
+.border-bg {
+    background-image: url(Border-BG.jpg);
+    opacity: 0.5;
+    background-size: 6.3rem auto;
+    transform: rotateY(180deg);
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgb(235, 147, 66);
+    background-color: rgb(174, 225, 235);
+    border-radius: 20px; 
+    box-shadow: 0 19px 38px rgba(131, 60, 60, 0.3), 0 15px 12px rgba(0, 0, 0, .22);
+}
+.title2{
+    font-family: arial2009;
+    text-shadow: 0 0 3px #FF0000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.name_dis {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family:  nino-mtavruli-normal, sans-serif;
+}
+.container2 {
+    max-width: 50%;
+    min-height: 10px;
+    margin: auto;
+  }
+.container {
+    display: inline-block;
+    margin: auto;
+}
+.sub {
+    display: flex;
+    
+}
+
+.textforsubox {
+    margin: 20px;
+    text-align: justify;
+    font-family: 'Lobster', cursive;
+}
+
+.subbox {
+    width: auto;
+    margin: 5%;
+    margin-top: 2%;
+    box-shadow:
+    inset 0 7em 10em rgba(44, 185, 103, 0.993),
+          0 0  50px 2px rgba(98, 194, 106, 0.726),
+          0.3em 0.9em 3em rgba(0, 0, 0, 0.815);
+
+}
+.subbox1 {
+    float: left;
+    width: auto;
+    margin: 50px;
+  
+  
+
+}
+.subbox2 {
+    float: right;
+    width: auto;
+    margin: 60px;
+    margin-right: 80px;
+}
+
+.title {
+    
+    font-size: 27px;
+    margin: 0;
+    padding: 7px 15px;
+    font-weight: bold;
+    font-family: "ALK Life", sans-serif;
+    text-align: left;
+}
+
+.textforsubox {
+  position: left;
+}
+.textforbuttons{
+    text-align: justify;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    text-decoration: none;
+}
+
+.subbox.second{
+    box-shadow:
+    inset 0 7em 20em rgb(214, 135, 45),
+          0 0  50px 2px rgba(194, 144, 98, 0.726),
+          0.3em 0.9em 3em rgba(0, 0, 0, 0.815);
+    
+}
+.subbox1.second{
+    margin-right: 85px;
+    margin-left: 85px;
+}
+.subbox1.second:hover{
+    box-shadow: -1px 14px 32px -10px rgba(0, 0, 0, 0.61);
+    background: rgb(248, 133, 1);
+    cursor: pointer;
+}
+.sub.s{
+    margin-top: 2px;
+}
+.li1.contactsbutton{
+    background-color:rgb(0, 145, 241);
+}
+div.sticky {
+    position: sticky;
+    top: 50px;
+    padding: 5px;
+  }
+.chamonatvali{
+    border: 2px solid rgb(255, 255, 255);
+    text-align: left;
+    background-color: rgb(174, 225, 235);
+    margin: 7px;
+    padding: 5px;
+    border-radius: 20px; 
+}
+  .form-group {
+    display: block;
+    margin: 15px;
+}
+
+p {
+    font-weight: bold;
+}
+
+.form-control input {
+    margin: 15px;
+    width: 300px;
+}
+.right {
+    margin-left: 50%;
+}
+.left{
+    margin-left: 5%;
+}
+  
+  .subbox1:hover {
+    box-shadow: -1px 14px 32px -10px rgba(0, 0, 0, 0.61);
+    background: rgb(13, 175, 121);
+    cursor: pointer;
+  }
+.texti{
+    padding-right: 50px;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    
+}
+
+
+.input-container{
+	position:relative;
+    margin-bottom:25px;
+    margin-right: 25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:13px;
+	color:#fff;	
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:3px solid rgba(26, 35, 155, 0.685);  
+  background:transparent;
+  width: 300px;
+  padding:10px 0 8px 0;
+  font-size:16px;
+  color:#fff;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom: 2.4px solid #e74c3c;	
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-15px;
+	font-size:10px;
+	
+}
+textarea {
+  margin-top: 5px;
+  background: rgba(0, 0, 0, 0.07);
+  border-color:rgba(26, 35, 155, 0.685);
+  border-radius: 6px;
+  border-width: medium 2px 1px medium;
+  box-shadow: 0 1px 2px rgba(26, 35, 155, 0.685) inset;
+  color: #000000;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition:  0.4s ease 0.1s;
+}
+
+
+textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
+}
+.textforbuttons{
+    text-align: center;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    text-decoration: none;
+}
+
+
+#btn {
+    background: rgba(44, 185, 103, 0.993);
+    height: 45px;
+    min-width: 50px;
+    border-radius: 10px;
+    color: rgb(196, 0, 0);
+    font-size: 30px;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px auto;
+    padding: 10px;
+    width: 35%;
+    
+    
+    display: block;
+  }
+  
+  #btn #circle {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    transition: 1500ms;
+  }
+  
+  #btn:hover {
+    box-shadow:
+    inset 0 7em 20em rgb(236, 149, 50),
+          0 0  50px 2px rgba(194, 144, 98, 0.726),
+          0.3em 0.9em 3em rgba(0, 0, 0, 0.815);
+    transition: 3000ms;
+  }
+  
+  #btn:hover #circle {
+    height: 50px;
+    width: 90%;
+    left: 0;
+    margin-left: 5%;
+    border-radius: 0;
+    border-bottom: 2px solid rgb(26, 3, 158);
+  }
